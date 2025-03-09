@@ -1,0 +1,12 @@
+[main]
+rootdev=UUID=af0ed07c-fac2-445b-8e0a-bc547912a65c
+rootfstype=ext4
+# The init system logs to the console defined last.
+consoleargs=console=ttyAML0,115200 console=tty1
+usbstoragequirks=
+extraargs=net.ifnames=0
+docker_optimizations=off
+overlay_path=amlogic
+overlay_prefix=meson
+overlays=
+user_overlays=
